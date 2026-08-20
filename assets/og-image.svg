@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2b7fff"/><stop offset=".5" stop-color="#7b5cff"/><stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="m1" cx="0" cy="0" r="1" gradientTransform="translate(240 120) scale(560)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2b7fff" stop-opacity=".35"/><stop offset="1" stop-color="#2b7fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="m2" cx="0" cy="0" r="1" gradientTransform="translate(1000 520) scale(560)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee" stop-opacity=".3"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#080a14"/>
+  <rect width="1200" height="630" fill="url(#m1)"/>
+  <rect width="1200" height="630" fill="url(#m2)"/>
+  <g opacity=".18" stroke="#6096ff" stroke-width="1">
+    <path d="M0 90h1200M0 180h1200M0 270h1200M0 360h1200M0 450h1200M0 540h1200"/>
+    <path d="M90 0v630M270 0v630M450 0v630M630 0v630M810 0v630M990 0v630M1170 0v630"/>
+  </g>
+  <g transform="translate(80 250)">
+    <path d="M30 0 66 21v42L30 84-6 63V21L30 0Z" stroke="url(#g)" stroke-width="3" opacity=".6"/>
+    <circle cx="30" cy="40" r="10" fill="url(#g)"/>
+    <circle cx="30" cy="40" r="21" stroke="url(#g)" stroke-width="3" opacity=".8"/>
+    <circle cx="51" cy="40" r="4.5" fill="#22d3ee"/>
+  </g>
+  <text x="180" y="300" font-family="Segoe UI, sans-serif" font-size="40" font-weight="700" fill="#eef1fb">elIT Solutions</text>
+  <text x="80" y="410" font-family="Segoe UI, sans-serif" font-size="62" font-weight="700" fill="#eef1fb">Microsoft <tspan fill="url(#g)">AI &amp; Automation</tspan></text>
+  <text x="80" y="485" font-family="Segoe UI, sans-serif" font-size="62" font-weight="700" fill="#eef1fb">partner for the Middle East</text>
+  <g transform="translate(80 530)">
+    <rect x="0" y="0" width="20" height="20" rx="2" fill="#f25022"/><rect x="24" y="0" width="20" height="20" rx="2" fill="#7fba00"/>
+    <rect x="0" y="24" width="20" height="20" rx="2" fill="#00a4ef"/><rect x="24" y="24" width="20" height="20" rx="2" fill="#ffb900"/>
+    <text x="60" y="30" font-family="Segoe UI, sans-serif" font-size="26" font-weight="600" fill="#c7cee3">Microsoft Solutions Partner · Lebanon &amp; the Middle East</text>
+  </g>
+</svg>
